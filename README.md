@@ -1,3 +1,3 @@
 demo:
 
-https://armand-lion.github.io/les22/
+https://armand-lion.github.io/les22
