@@ -1,0 +1,56 @@
+body { 
+    background-color: beige;
+}
+
+footer div {
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+    Background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+img {
+    max-width: 100%;
+    padding:5%;
+}
+
+.row-cols-3 .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tekst div {
+    margin-top: 2%;
+}
+
+.input-group {
+    width: 75%;
+}
+
+.input-group-text {
+    width: 140px;
+    justify-content: right;
+}
+
+.container-sm {
+    min-height: 1500px;
+    background-color: azure;
+
+}
+
+.center-block {
+    display: flex;  /* Instead of display:block */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    margin-top: 40px;
+}
+
+::placeholder {
+    font-style: italic;
+}

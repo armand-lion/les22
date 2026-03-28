@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" ">
+        <meta name="keywords" content=" ">
+        <meta name="author" content="HobbyLion">
+
+        <!-- Bootstrap-CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <!-- override bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/les22.css">
+        <title>Mijn Pagina</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <h3 class="navbar-brand">Mijn pagina</h3>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="overmij.html">Over mij</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-sm d-flex align-items-center justify-content-center">
+                <div class="col p-5 tekst">
+                    <div class="row">
+                        <fieldset class="border rounded-5 p-3 text-center">
+                            <legend class="float-none w-auto px-3">contactformulier</legend>
+                            <form  id="contactform" method="post" action="https://formspree.io/f/xgonkono">
+                                <div class="mb-3 input-group center-block">
+                                    <label for="naam" class="input-group-text">Uw naam:</label>
+                                    <input type="text" class="form-control" id="naam" placeholder="uw naam">
+                                </div>
+                                <div class="mb-3 input-group center-block">
+                                    <label for="email" class="input-group-text">Email address:</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="uw email">
+                                </div>
+                                <div class="mb-3 input-group center-block">
+                                    <label for="bericht" class="input-group-text">Uw bericht:</label>
+                                    <textarea class="form-control" rows="5" id="bericht" name="text" placeholder="uw bericht"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Verzenden</button>
+                            </form>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+
+        <footer class="bg-body-tertiary text-center text-lg-start">
+            <div class="text-center p-5">
+                &copy; 2026<br>Copyright: HobbyLion
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
