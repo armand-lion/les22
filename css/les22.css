@@ -42,7 +42,7 @@ img {
 }
 
 .center-block {
-    display: flex;  /* Instead of display:block */
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
